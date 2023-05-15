@@ -5,7 +5,7 @@ namespace Relacionamentos.Data
 {
     public class RelacionamentosContext : DbContext
     {
-        public RelacionamentosContext(DbContextOptions options) : base(options)
+        public RelacionamentosContext(DbContextOptions<RelacionamentosContext> options) : base(options)
         {
         }
 
